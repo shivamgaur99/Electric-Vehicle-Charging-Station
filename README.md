@@ -1,4 +1,4 @@
-# Electric-Vehicle-Charging-Station
+# Electric-Vehicle-Charging-Station  ( MERN )
 
 ## Installation Guide
 
