@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Electric-Vehicle-Charging-Station  ( MERN )
 
 ## Installation Guide
@@ -52,3 +53,6 @@ Explain how others can contribute to your project, whether through bug reporting
 ## License
 
 Specify the project's license (e.g., MIT, Apache 2.0, etc.).
+=======
+# current working branch
+>>>>>>> 27b3715b909441e6d599895121d8d269c1a9a747

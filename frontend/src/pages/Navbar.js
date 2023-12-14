@@ -35,9 +35,9 @@ function NavigationLinks() {
                 Home
               </Nav.Link>
 
-              <Nav.Link href="/user-list" disabled>
+              {/* <Nav.Link href="/user-list" disabled>
                 Services
-              </Nav.Link>
+              </Nav.Link> */}
               {/* 
               <Form className="d-flex">
                 <Form.Control
@@ -47,17 +47,23 @@ function NavigationLinks() {
                   aria-label="Search"
                 />
                 <Button variant="outline-success">Search</Button>
-              </Form> */}
+              </Form> */}  
+              {/* <Nav.Link as={Link} to={"/check-queries"}>
+                CheckQueries
+              </Nav.Link> */}
 
               <Nav.Link as={Link} to={"/contact-us"}>
                 ContactUs
               </Nav.Link>
-              <Nav.Link as={Link} to={"/check-queries"}>
-                CheckQueries
-              </Nav.Link>
-              <Nav.Link as={Link} to={"/registration"}>
+            
+              {/* <Nav.Link as={Link} to={"/registration"}>
                 Registration
-              </Nav.Link>
+              </Nav.Link> */}
+              {loginStatus && (
+                <Nav.Link as={Link} to={"/registration"} style={{ display: "none" }}>
+                  Registration
+                </Nav.Link>
+              )}
 
               <Nav.Link as={Link} to={"/about-us"}>
                 AboutUs
